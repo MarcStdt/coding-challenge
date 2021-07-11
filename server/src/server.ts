@@ -16,13 +16,17 @@ app.get("/companies", async (req: Request, res: Response) => {
 app.get("/companies/search", async (req: Request, res: Response) => {
   const { q, services } = req.query;
 
+  if (!services){
+    res.json([]);
+    return;
+  }
+
   //filter for search term
   let results = q ? filterName(q as string, companies) : companies;
 
   //filter for selected services
-  if (services) {
-    results = filterService((services as string).split(","), results);
-  }
+  results = filterService((services as string).split(","), results);
+
   res.json(results);
 });
 
