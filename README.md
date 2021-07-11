@@ -14,6 +14,7 @@ The project makes use of the following tools:
 
 ## Setup
 To set up this project, just run one command in the root directory (the directory where this readme is located):
+
 `npm install`
 
 This will set up the server and the client workspace.
@@ -24,17 +25,21 @@ The quickest way, is to use the development start commands.
 
 ### Start backend server
 The backend is pretty minimal and using express. Run this command to start the backend:
+
 `npm run start -w=server`
 
 ### Start frontend SPA
 The frontend is based on create-react-app. To start the SPA run:
+
 `npm run start -w=client`
 
 ## Testing
 This project uses __Cypress for e2e testing__. To run the tests, just run:
+
 `npm run test`
 
 or open the cypress app:
+
 `npm run test:open`
 
 __The client and the SPA have to run for the tests to succeed.__
@@ -52,6 +57,7 @@ There are Dockerfiles for the client and the server project.
 
 ### Building
 You can build both, by simply running:
+
 `npm run build:docker -w=server -w=client`
 
 or use `docker compose`:
@@ -69,13 +75,17 @@ docker build --build-arg API_URL=http://custom-api.com . -t cosuno-client
 
 ### Start containers
 The most simple way to get the docker setup running, is using `docker-compose`:
+
 `docker-compose up -d`
 
-Alternatively you can of cause just start both container using `docker run`
+Alternatively you can of cause just start both container using `docker run`:
 
 __Client:__
+
 `docker run -p 80:80 cosuno-client`
+
 __Server:__
+
 `docker run -p 8080:8080 cosuno-server`
 
 ## Clean up code
