@@ -102,4 +102,4 @@ To clean up your code, just run:
 * Prettier is using the default rules without any config. This may not be optimal in the long run.
 * I really like the combination of [huskey](https://github.com/typicode/husky) hooks with prettier and/or ESLint, which I haven't done here. It ensures, that code is always committed fell formatted.
 * The project is already set up for usage in CI/CD. You can change the api endpoint with a docker build arg, so adding a configuration for a gitlab/github runner or smth similar would be an improvement.
-* The should be an alert, which signals, when no companies are found.
+* There should be an alert, which signals, when no companies are found.
