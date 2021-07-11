@@ -85,7 +85,7 @@ To clean up your code, just run:
 ## Improvement suggestions
 * There could be a penalty to start the request or something similar, when typing in the search field, so that there are not so much request fired while typing (this problem of cause only exists in the serverside search).
 * There could be better doc blocks for components / functions with parameter descriptions etc.
-* The design is surely not the best. More work could be done there.
+* The design is surely not the best. More work could be done there (including responsiveness).
 * The `utils.ts` is present in the server and the client workspace. Both are pretty similar. It would be possible to create a libs-workspace or something like that, to eliminate nearly duplicate code.
 * There could be more tests for edge cases or tests in general.
 * Prettier is present to ensure a good code style. ESLint could also be added to notify for bad practices and similar problems.
