@@ -1,0 +1,114 @@
+[
+  {
+    "id": 1,
+    "name": "Test Company",
+    "image": "http://placekitten.com/200/50",
+    "services": ["excavation", "plumbing", "electrical"],
+    "city": "Berlin"
+  },
+  {
+    "id": 2,
+    "name": "Another Test Company",
+    "image": "http://placekitten.com/200/60",
+    "services": ["excavation", "plumbing"],
+    "city": "Dresden"
+  },
+  {
+    "id": 3,
+    "name": "Best Electrical Company",
+    "image": "http://placekitten.com/200/70",
+    "services": ["electrical"],
+    "city": "Bochum"
+  },
+  {
+    "id": 4,
+    "name": "Best Plumbing Company",
+    "image": "http://placekitten.com/200/80",
+    "services": ["plumbing"],
+    "city": "Berlin"
+  },
+  {
+    "id": 5,
+    "name": "Best Excavation Company",
+    "image": "http://placekitten.com/210/50",
+    "services": ["excavation"],
+    "city": "Hamburg"
+  },
+  {
+    "id": 6,
+    "name": "We get work done",
+    "image": "http://placekitten.com/220/50",
+    "services": ["plumbing"],
+    "city": "Paris"
+  },
+  {
+    "id": 7,
+    "name": "We are new on Cosuno",
+    "image": "http://placekitten.com/230/50",
+    "services": ["excavation", "electrical"],
+    "city": "Madrid"
+  },
+  {
+    "id": 8,
+    "name": "Marc's company",
+    "image": "http://placekitten.com/240/50",
+    "services": ["plumbing"],
+    "city": "Bochum"
+  },
+  {
+    "id": 9,
+    "name": "Hello World Company",
+    "image": "http://placekitten.com/250/50",
+    "services": ["electrical"],
+    "city": "Faketown"
+  },
+  {
+    "id": 10,
+    "name": "We are a company in Berlin",
+    "image": "http://placekitten.com/260/80",
+    "services": ["electrical"],
+    "city": "Berlin"
+  },
+  {
+    "id": 11,
+    "name": "We are a company in Bochum",
+    "image": "http://placekitten.com/220/60",
+    "services": ["plumbing"],
+    "city": "Bochum"
+  },
+  {
+    "id": 12,
+    "name": "We are a company in Cologne",
+    "image": "http://placekitten.com/190/50",
+    "services": ["electrical"],
+    "city": "Cologne"
+  },
+  {
+    "id": 13,
+    "name": "We are a company near Berlin",
+    "image": "http://placekitten.com/210/50",
+    "services": ["electrical"],
+    "city": "Falkensee"
+  },
+  {
+    "id": 14,
+    "name": "Yet another example company",
+    "image": "http://placekitten.com/200/55",
+    "services": ["plumbing"],
+    "city": "Examplecity"
+  },
+  {
+    "id": 15,
+    "name": "Another example company",
+    "image": "http://placekitten.com/200/56",
+    "services": ["electrical"],
+    "city": "Dortmund"
+  },
+  {
+    "id": 16,
+    "name": "Example company",
+    "image": "http://placekitten.com/200/57",
+    "services": ["plumbing"],
+    "city": "Berlin"
+  }
+]
