@@ -13,10 +13,10 @@ The project makes use of the following tools:
 * __express__ (+ cors middleware)
 
 ## Setup
-To setup this project, just run one command in the root directory (the directory where this readme is located):
+To set up this project, just run one command in the root directory (the directory where this readme is located):
 `npm install`
 
-This will setup the server and the client workspace.
+This will set up the server and the client workspace.
 
 ## Start the project for development
 In order to use this project, you have to start the backend and the frontend.
@@ -59,7 +59,7 @@ or use `docker compose`:
 `docker-compose build`
 
 The docker images tags will be `cosuno-client` and `cosuno-server`
-The `cosuno-client` is a multi-stage build, which builds the javascript files in the first stage and configures a Ngnix container after that, wich will deliver the files, when the container gets started.
+The `cosuno-client` is a multi-stage build, which builds the javascript files in the first stage and configures a Ngnix container after that, which will deliver the files, when the container gets started.
 
 If you want to change the api url, you have to build the client package with a custom build arg: 
 ```
@@ -83,7 +83,7 @@ To clean up your code, just run:
 `npm run prettier`
 
 ## Improvement suggestions
-* There could be a penalty to start the request or something similar, when typing in the search field, so that there are not so much request fired while typing (this problem of cause only exists in the serverside search).
+* There could be a penalty to start the request or something similar, when typing in the search field, so that there are not so much request fired while typing (this problem of cause only exists in the server-side search).
 * There could be better doc blocks for components / functions with parameter descriptions etc.
 * The design is surely not the best. More work could be done there (including responsiveness).
 * The `utils.ts` is present in the server and the client workspace. Both are pretty similar. It would be possible to create a libs-workspace or something like that, to eliminate nearly duplicate code.
